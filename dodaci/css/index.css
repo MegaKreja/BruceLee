@@ -1,0 +1,134 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+	background: black;
+}
+.uvodnaSlika {
+	background: url("brucelee.png");
+	background-size: cover;
+	height: 100vh;	
+}
+.uvodniTekst {
+	float: right;
+	padding-right: 120px;
+	padding-top: 10%;
+}
+.uvodniTekst h1 {
+	font-family: Russo One, Arial;
+	text-transform: uppercase;
+	color: #FFA343;
+	font-size: 70px;
+	margin-left: 210px;
+}
+.uvodniTekst p {
+	font-family: Russo One, Arial;
+	font-size: 30px;
+	color: #FFF;
+}
+.uvodnaSlika audio {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.citat {
+	font-family: Lora, Arial;
+	font-size: 40px;
+	color: red;
+	width: 100%;
+	padding-top: 20%;
+	padding-right: 120px;
+}
+.dugmici {
+	width: 100%;
+	height: 100vh;
+	display: inline-block;
+	font-family: Lora, Arial;
+	cursor: pointer;
+	margin: 0;
+	color: white;
+	margin-bottom: -5px;
+}
+.prvaStrana {
+	width: 50%;
+	height: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:url("biolee.jpg");
+	background-size: cover;
+	text-transform: uppercase;
+}
+.prvaStrana i {
+	padding-right: 30px;
+	transform: scale(2.5,2);
+}
+.prvaStrana:hover {
+	background: url("bioleenormal.jpg");
+	background-size: cover;
+	transition: 1s;
+	font-size: 30px;
+}
+
+.drugaStrana {
+	width: 50%;
+	height: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:url("lee.jpg");
+	background-size: cover;
+	text-transform: uppercase;
+}
+.drugaStrana i {
+	padding-right: 30px;
+	transform: scale(2.5,2);
+}
+.drugaStrana:hover {
+	background: url("leenormal.jpg");
+	background-size: cover;
+	transition: 1s;
+	font-size: 30px;
+}
+.trecaStrana {
+	width: 50%;
+	height: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:url("jeetkunsiv.jpg");
+	background-size: 100% 100%;
+	text-transform: uppercase;
+}
+.trecaStrana:hover {
+	background: url("jeetkun.jpg");
+	background-size: 100% 100%;
+	transition: 1s;
+	font-size: 30px;
+}
+.cetvrtaStrana {
+	width: 50%;
+	height: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:url("wata.jpg");
+	background-size: cover;
+	text-transform: uppercase;
+}
+.cetvrtaStrana:hover {
+	background: url("wata.gif");
+	background-size: cover;
+	transition: 1s;
+	font-size: 30px;
+}
+
+
+
+
+
